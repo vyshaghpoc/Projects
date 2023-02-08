@@ -1,1 +1,83 @@
-
+teams:
+  - team: CIAM
+    accounts:
+      - name: -dev
+        id: "644"
+        cidrs:
+          eu-west-1:
+            - 10.24.1.0/25
+      - name: stage
+        id: "63"
+        cidrs:
+          eu-west-1:
+            - 10.24.1.128/25
+      - name: prod
+        id: "54"
+        cidrs:
+          eu-west-1:
+            - 10.24.2.0/25
+      - name: dev
+        id: "731"
+        cidrs:
+          eu-west-1:
+            - 10.24.2.128/25
+      - name: next
+        id: "3"
+        cidrs:
+          eu-west-1:
+            - 10.24.3.0/25
+      - name: next-gd
+        id: "651"
+        cidrs:
+          eu-west-1:
+            - 10.24.3.128/25
+      - name: -dev
+        id: "276"
+        cidrs:
+          eu-west-1:
+            - 10.24.58.128/25
+      - name: ices-stage
+        id: "408"
+        cidrs:
+          eu-west-1:
+            - 10.24.59.0/25
+      - name: tod
+        id: "80"
+        cidrs:
+          eu-west-1:
+            - 10.24.63.128/25
+  - team: NEO
+    accounts:
+      - name: tdev
+        id: "459"
+        cidrs:
+          eu-west-1:
+            - 10.24.4.0/25
+            - 10.24.39.0/25
+      - name: teage
+        id: "09"
+        cidrs:
+          eu-west-1:
+            - 10.24.4.128/25
+            - 10.24.24.128/25
+      - name: trod
+        id: "5667"
+        cidrs:
+          eu-west-1:
+            - 10.24.5.0/25
+      - name: mq-acc
+        id: "7261"
+        cidrs:
+          eu-west-1:
+            - 10.24.22.128/25
+            - 10.24.28.128/25
+      - name: trod
+        id: "03"
+        cidrs:
+          eu-west-1:
+            - 10.24.32.0/25
+      - name: tev
+        id: "289"
+        cidrs:
+          eu-west-1:
+            - 10.24.25.128/25
